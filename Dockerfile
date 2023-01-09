@@ -7,7 +7,7 @@ RUN apt-get install -y make
 RUN apt-get install -y libpcre3-dev
 RUN apt-get install -y libssl-dev
 RUN apt-get install -y wget
-RUN apt-get install -y ffmpeg
+RUN sudo apt-get install -y ffmpeg
 RUN mkdir -p /home/nginx-rtmp-module
 RUN git clone https://github.com/arut/nginx-rtmp-module /home/nginx-rtmp-module
 RUN mkdir -p /home/nginx
