@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:20.04
 # From https://www.leaseweb.com/labs/2013/11/streaming-video-demand-nginx-rtmp-module/
 RUN apt-get -y -q update 
 RUN apt-get install -y git
